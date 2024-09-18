@@ -1,0 +1,7 @@
+*
+!.gitignore
+!/default*
+!/create.bat
+!/delcmd.bat
+!/edit.bat
+!/lscmd.bat
