@@ -7,9 +7,16 @@ Windows用のクイックコマンド作成スクリプトです。
 > 
 > 参考までに、デバッグ時に使用しているディレクトリは `C:\Data\cmd` です。
 
+# Dependencies
+
+- sh (not bash)
+- Node.js (for js template)
+- Bun (for ts template)
+
 # Setup
-1. 展開/クローンしたフォルダーをWindowsのPATHに追加する
-2. `create`コマンドを使用してファイルを作成する
+1. 依存関係をインストールする
+2. 展開/クローンしたフォルダーをWindowsのPATHに追加する
+3. `create`コマンドを使用してファイルを作成する
 
 `delcmd`, `edit`, `lscmd`を使用してコマンドを編集することができます。
 
