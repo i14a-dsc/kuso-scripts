@@ -2,9 +2,9 @@
 setlocal enabledelayedexpansion
 pushd %~dp0
 echo I14A CommandLine Tools v1.2&echo %0 - since v1.0&echo.&if "%~1"=="" (echo [Err] No command provided. & exit /b)
-if not exist "C:\Data\cmd\%1.bat" (echo [Err] File dosen't exists.&exit /b)
+if not exist "%~1.bat" (echo [Err] File dosen't exists.&exit /b)
 
-echo Input: %1
+echo Input: %~1
 set /P confirm="Ok to delete "%1"? (y/N): "
 
 for /f "tokens=*" %%a in ("%confirm%") do (
