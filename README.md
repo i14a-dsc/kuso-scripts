@@ -1,5 +1,5 @@
 # kuso-scripts
-Windows用のコマンドクイック作成スクリプトです。
+Windows用のクイックコマンド作成スクリプトです。
 
 > [!Warning]
 > 
