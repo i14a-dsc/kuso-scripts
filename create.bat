@@ -15,5 +15,15 @@ if "%~2"=="js" (
   cp default.js "%~1.js"
   nano "%~1.js"
 )
+if "%~2"=="ts" (
+  echo @setlocal^&@bun "%cd%\%~1.ts"^&@endlocal > "%~1.bat"
+  cp default.js "%~1.ts"
+  nano "%~1.ts"
+)
+if "%~2"=="sh" (
+  echo @setlocal^&@sh "%cd%\%~1.sh"^&@endlocal > "%~1.bat"
+  cp default.js "%~1.sh"
+  nano "%~1.sh"
+)
 
 endlocal
