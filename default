@@ -1,0 +1,10 @@
+@echo off
+:init
+setlocal
+
+:main
+echo Hello, world!
+
+:exit
+endlocal
+exit /b
